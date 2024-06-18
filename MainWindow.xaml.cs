@@ -20,9 +20,12 @@ namespace ПР43_Осокин
     /// </summary>
     public partial class MainWindow : Window
     {
+        public static MainWindow init;
         public MainWindow()
         {
             InitializeComponent();
+            init = this;
+            frame.Navigate(new View.Main());
         }
     }
 }
