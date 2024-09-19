@@ -18,9 +18,10 @@ namespace ПР43_Осокин.View.Tasks
     /// </summary>
     public partial class Main : Page
     {
-        public Main()
+        public Main(object Context)
         {
             InitializeComponent();
+            DataContext = Context;
         }
     }
 }

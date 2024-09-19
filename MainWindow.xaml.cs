@@ -25,7 +25,7 @@ namespace ПР43_Осокин
         {
             InitializeComponent();
             init = this;
-            frame.Navigate(new ViewModels.VM_Page());
+            DataContext = new ViewModels.VM_Pages();
         }
     }
 }
