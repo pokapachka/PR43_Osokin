@@ -21,7 +21,7 @@
             <Grid.Effect>
                 <DropShadowEffect Opacity="0.1"/>
             </Grid.Effect>
-            <Image Width="70" Height="70" Margin="10" VerticalAlignment="Top" HorizontalAlignment="Left" Source="/Images/задачи.png"/>
+            <Image Width="70" Height="70" Margin="10" VerticalAlignment="Top" HorizontalAlignment="Left" Source="/Images/task.png"/>
             <Grid Margin="90, 0, 0, 0">
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="*"/>
